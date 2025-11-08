@@ -1,0 +1,83 @@
+body {
+    background-color: white;
+    color: rgb(113, 103, 255);
+    font-family: Poppins;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 0%; height: 0%;
+  background: repeating-linear-gradient(
+    rgba(0,0,0,0.05) 0px,
+    rgba(0,0,0,0.05) 1px,
+    transparent 2px
+  );
+  pointer-events: none;
+}
+
+header {
+    background-color: #dff6ff;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 3px solid white;
+    padding: 20px;
+}
+
+/* Centraliza a imagem e a frase no meio da tela */
+.frase-com-imagem {
+  display: flex;
+  flex-direction: column; /* coloca imagem em cima e texto embaixo */
+  justify-content: center; /* centraliza verticalmente */
+  align-items: center; /* centraliza horizontalmente */
+  height: 70vh; /* ocupa 70% da altura da tela */
+  text-align: center;
+}
+
+.foto {
+  width: 250px;
+  border-radius: 10px;
+  margin-bottom: 15px; /* espaço entre imagem e frase */
+}
+
+
+button {
+    text-align: center;
+    background-color: rgb(113, 103, 255);
+    border: 10px solid black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3;
+    box-shadow: 3px 3px #000000;
+}
+
+button:hover {
+    background-color: rgb(75, 62, 253);
+    transform: 1.05;
+}
+
+.carta {
+  background-color: rgb(113, 103, 255);
+  color: white;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  font-size: 16px;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease;
+}
+
+.carta.mostrar {
+  opacity: 1;
+  transform: translateY(0);
+}

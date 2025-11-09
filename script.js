@@ -4,14 +4,12 @@ const botao = document.querySelector("button");
 const carta = document.createElement("div");
 carta.classList.add("carta");
 carta.innerHTML = `
-  <h2>💌 Minha Carta Para Você 💌</h2>
+  <h2>🤨 Curioso ele</h2>
   <p>
-    Amor,<br><br>
-    Este site é simples, mas cada linha dele foi escrita pensando em você.<br>
-    Quis esconder aqui uma pequena mensagem, como quem guarda um bilhete no bolso da alma.<br><br>
-    Você é meu ponto fixo no caos, meu “Hello, World!” preferido.<br>
-    Que este botão misterioso te lembre: eu te amo — no passado, no presente e em cada linha de código que ainda vou escrever.<br><br>
-    ❤️
+    Parabéns, meu amigo! 🌟<br>
+    De verdade, significa muito pra mim saber que você tirou um tempinho pra explorar meu primeiro site. Esse projeto nasceu de muita curiosidade, café e horas tentando fazer cada detalhe funcionar e ver alguém chegando até aqui é simplesmente incrível.<br>
+    Cada clique seu é um pedacinho de apoio, cada olhar sobre o site é como um empurrão pra continuar criando, melhorando e sonhando mais alto. Obrigado por fazer parte desse começo, que, espero, seja apenas o primeiro de muitos passos pela frente.<br>
+    De verdade, significa muito pra mim saber que você tirou um tempinho pra explorar meu primeiro site. Esse projeto nasceu de muita curiosidade, café e horas tentando fazer cada detalhe funcionar e ver alguém chegando até aqui é simplesmente incrível.
   </p>
 `;
 
